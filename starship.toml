@@ -22,6 +22,7 @@ $julia\
 $erlang\
 $ocaml\
 $nodejs\
+$bun\
 $python\
 $java\
 $gradle\
@@ -125,8 +126,8 @@ style = "bg:color_5 fg:color_15"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:color_13 fg:color_15"
-format = '[( $all_status $ahead_behind )]($style)'
+style = "bg:color_5 fg:color_15"
+format = '[($all_status$ahead_behind )]($style)'
 
 [c]
 symbol = " "
@@ -174,7 +175,12 @@ style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [nodejs]
-symbol = "  "
+symbol = " "
+style = "bg:color_2 fg:color_15"
+format = '[$symbol$version ]($style)'
+
+[bun]
+symbol = " "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
