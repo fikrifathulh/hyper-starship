@@ -130,142 +130,142 @@ style = "bg:color_5 fg:color_15"
 format = '[($all_status$ahead_behind )]($style)'
 
 [c]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [zig]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [cpp]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [golang]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [rust]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [swift]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [julia]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [erlang]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [ocaml]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [nodejs]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [bun]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [python]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [java]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [gradle]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [maven]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [kotlin]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [haskell]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [lua]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [nix_shell]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [crystal]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [dart]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [ruby]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [scala]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [php]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [terraform]
-symbol = " "
+symbol = "  "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [rlang]
-symbol = "󰟔 "
+symbol = " 󰟔 "
 style = "bg:color_2 fg:color_15"
 format = '[$symbol$version ]($style)'
 
 [docker_context]
-symbol = " "
+symbol = "  "
 style = "bg:color_6 fg:color_15"
 format = '[$symbol$context ]($style)'
 
 [kubernetes.contexts]
-symbol = "󱃾 "
+symbol = " 󱃾 "
 style = "bg:color_6 fg:color_15"
 format = '[$symbol$context ]($style)'
 
