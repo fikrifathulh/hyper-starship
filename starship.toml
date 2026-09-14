@@ -42,8 +42,10 @@ $terraform\
 $docker_context\
 $kubernetes_context\
 [](bg:color_8 fg:color_6)\
+$memory_usage\
 $time\
-[](fg:color_8)\
+[ ](fg:color_8)\
+$battery\
 $line_break$character"""
 
 palette = 'hyper_terminal_palette'
@@ -309,11 +311,34 @@ symbol = " 󱃾 "
 style = "bg:color_6 fg:color_15"
 format = '[$symbol$context ]($style)'
 
+[memory_usage]
+disabled = false
+threshold = -1
+style = "bg:color_8 fg:color_15"
+format = '[ 󰍛 $ram]($style)'
+
+
 [time]
 disabled = false
 time_format = "%R"
 style = "bg:color_8 fg:color_15"
-format = '[  $time  ]($style)'
+format = '[ |  $time  ]($style)'
+
+[battery]
+
+[[battery.display]] # displayed when capacity is between 0% and 10%
+threshold = 10
+style = "bold red"
+discharging_symbol = "󰂃 "
+charging_symbol = "󰂄 "
+
+[[battery.display]] # displayed when capacity is between 10% and 30%
+threshold = 30
+style = "bold yellow"
+discharging_symbol = "󰂃 "
+charging_symbol = "󰂄 "
+
+# when capacity is over 30%, the battery indicator will not be displayed
 
 [line_break]
 disabled = false
